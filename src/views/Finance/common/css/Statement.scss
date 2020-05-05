@@ -1,0 +1,54 @@
+.statement {
+    /* /deep/ .ant-table-tbody > tr > td {
+       text-align: center;
+     }*/
+    .statement-body {
+        background-color: #fff;
+    }
+    .outer-operation {
+        padding: 20px;
+        width: 100%;
+        .inner {
+            width: 400px;
+            margin: 0 auto;
+            .color-blue {
+                color: #1890ff;
+                border: 1px solid #1890ff;
+                border-radius: 50px 50px 50px 50px;
+                transition: all 0.2s ease-in;
+                margin-right: 20px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    background: rgb(62, 111, 216);
+                    color: #fff;
+                    border-color: transparent;
+                }
+            }
+            .active {
+                transition: all 0.2s;
+                background: rgb(62, 111, 216);
+                color: #fff;
+                border-color: transparent;
+            }
+        }
+    }
+    .data-before {
+        font-size: 14px;
+        padding-left: 10px;
+        /*background-color: #fff;*/
+        border-radius: 10px;
+        /*min-width: 1200px;*/
+        .min-w {
+            min-width: 300px
+        }
+        .a-row-table-head{
+            font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 500;
+            margin-right: 8px;
+            font-size:14px;
+            color:rgba(0,0,0,0.85);
+          }
+    }
+}
